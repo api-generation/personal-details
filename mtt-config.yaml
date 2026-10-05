@@ -11,9 +11,9 @@ loader:
   loaderURL: "http://localhost:7010"
   configFilePath: "api-generation/common-config/config/loaders/ea-xmi/config.yaml"
 generators:
-  #  MkDocs:
-  - generatorURL: "http://localhost:9020"
+  mk-docs:
+    generatorURL: "http://localhost:9020"
     configFilePath: "api-generation/common-config/config/generators/mkdoc/config.yaml"
-  #  Screening:
-  - generatorURL: "http://localhost:9035"
+  screening:
+    generatorURL: "http://localhost:9035"
     configFilePath: "api-generation/common-config/config/generators/reversed/config.yaml"
